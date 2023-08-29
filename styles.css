@@ -1,0 +1,9 @@
+body {
+    background:cyan;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: darkslategrey;
+    text-align:center;
+}
