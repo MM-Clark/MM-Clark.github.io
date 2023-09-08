@@ -1,6 +1,6 @@
 body {
     background:linear-gradient(rgb(251, 198, 235), rgb(104, 51, 92));
-    font-family:'Courier New', Courier, monospace;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .assignment {
@@ -27,12 +27,18 @@ h1 {
     text-decoration:bold; 
     font-size: 500%; 
     color: rgb(255, 227, 67);
+    text-shadow: 2px 2px 0px rgb(104, 51, 92);
+    text-shadow: 4px 4px 0px rgb(218, 91, 127);
 }
 
 a {
     text-decoration:none;
     font-size: 75%; 
     color:#e27531
+}
+
+p{
+    color:beige; 
 }
 
 a:hover {
