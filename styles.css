@@ -1,6 +1,8 @@
 body {
     background:linear-gradient(rgb(251, 198, 235), rgb(104, 51, 92));
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
+    max-width: 100%; 
 }
 
 .assignment {
@@ -8,7 +10,8 @@ body {
     padding: 10 px; 
     margin: 10 px;
     background: rgb(218, 91, 127);
-    border-radius:3px; 
+    border-radius:3px;
+    width: 400 px; 
 }
 
 .assignment img {
