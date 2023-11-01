@@ -1,8 +1,6 @@
 body {
     background:linear-gradient(rgb(251, 198, 235), rgb(104, 51, 92));
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    min-height: 100vh;
-    max-width: 100%; 
 }
 
 .assignment {
@@ -26,7 +24,7 @@ body {
 }
 
 h1 {
-    text-align:center;
+    text-align:left;
     text-decoration:bold; 
     font-size: 30px; 
     color: rgb(255, 227, 67);
@@ -35,7 +33,7 @@ h1 {
 }
 
 h2{
-    text-align:center;
+    text-align:left;
     text-decoration:bold; 
     font-size: 20px; 
     color: rgb(255, 227, 67);
@@ -51,8 +49,7 @@ a {
 
 p{
     color:beige; 
-    font-size: 15px;
-    width: 200px; 
+    font-size: 15px; 
 }
 
 a:hover {
