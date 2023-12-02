@@ -25,13 +25,13 @@ h1:hover {
 }
 
 h2{
-    text-align:left;
+    text-align:center;
     text-decoration:bold; 
     /* font-size: 20px;  */
     width:100%;
     color: rgb(255, 227, 67);
-    text-shadow: 2px 2px 0px rgb(104, 51, 92);
-    text-shadow: 4px 4px 0px rgb(218, 91, 127);   
+    /* text-shadow: 2px 2px 0px rgb(104, 51, 92);
+    text-shadow: 4px 4px 0px rgb(218, 91, 127);    */
 }
 
 h2:hover {
@@ -54,7 +54,7 @@ p{
 }
 
 .assignment {
-    background-color:darkmagenta;
+    background-color:palevioletred;
     width: 20%; 
     display:block;
     padding: 10 px; 
