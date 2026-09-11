@@ -1,7 +1,7 @@
 /*REFERENCE FOR COLOR PALETTE: https://coolors.co/f05d5e-0f7173-e7ecef-272932-d8a47f*/
 body {
     background-color: #E7ECEF;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', Verdana, Verdana, sans-serif;
 }
 
 h1 {
@@ -50,14 +50,14 @@ p{
     display:block;
     padding: 30 px; 
     margin: 30 px;
-    box-shadow: 8px 8px #fcccaf;
+    box-shadow: 8px 8px #272932;
     border-radius:3px;
 }
 
 .overview img {
     width:200px;
     margin:10px;
-    border:3px solid #8a3f3f;
+    border:3px solid #272932;
 }
 
 .overview img:hover {
