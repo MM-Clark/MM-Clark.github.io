@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSCE 190: Michelle Clark</title>
+        <title>Michelle Clark</title>
         <link rel="stylesheet" href="styles_index.css">
     </head>
     <body>
@@ -39,15 +39,32 @@
             <!-- <a href="files/personna.pdf"><img src="images/personna.png"></a> -->
             <section class="details">
                 <a href="files/personna.pdf"> Projects pdf??<h2>Projects</h2></a>
+                    <a href="files/personna.pdf"><img src="images/drone_app_mfcc_screenshots_ui.png"></a>
                     <a href="https://github.com/MM-Clark/Drone_Lab_App_Audio_MFCC_Classification"><h3>Drone Audio MFCC Classification App</h3></a>
-                        <a href="files/personna.pdf"><img src="images/drone_app_mfcc_screenshots_ui.png"></a>
                         <p>
-                            A React Native application to allow users to upload a drone audio MP3 file 
+                            A React Native Expo application to allow users to upload a drone audio MP3 file 
                             or a PNG/JPG/JPEG image of an MFCC image of drone audio for classification
                             as a certain Drone brand and model (ex. DJI Mini 3). Application handles Auth/Database
                             on Supabase and connects User History to the user account. Flask and Python are used in 
                             the backend of the application to host a CNN model and handle file processing / classification
                             return. 
+                        </p>
+                    <a href="files/personna.pdf"><img src="images/pokerun_login.PNG"><img src="images/pokerun_map.PNG"><img src="images/pokerun_list.PNG"></a>
+                    <a href="https://github.com/MM-Clark/CSCI_370_Final_Project"><h3>PokeRun</h3></a>
+                        <p>
+                            A React Native Expo application that gamifies fitness and improves Pokemon Go by having users locate pokemon at 
+                            real-world coordinates and perform exercises to catch the Pokemon. Users navigate a custom interactive map, track
+                            down nearby Pokemon using GPS geofencing, and complete randomized physical exercises to catch Pokemon and level up
+                            their trainer profile.  
+                        </p>
+                        <p>
+                            Local SQLite storage manages user accounts, a master list of Pokemon fetched from an external 
+                            JSON API, dynamically mapped pins, and nearby active Pokemon encounters. Use of expo-notifications to send local alerts
+                            to the device whenever a geofence boundary is crossed and a Pokemon is encountered. Use of expo-location to actively track 
+                            user coordinates and trigger background events when a user walks within 150 units of a designated map pin. Integration of
+                            react-native-maps with a custom-styled Google Maps provider to display interactable Points of Interest and dynamically pan
+                            to specific coordinates. Local sign up, login, and logout functionality and session
+                            state management managed by expo-secure-store. 
                         </p>
             </section>
         </section>
