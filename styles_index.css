@@ -1,6 +1,6 @@
 /*REFERENCE FOR COLOR PALETTE: https://coolors.co/f05d5e-0f7173-e7ecef-272932-d8a47f*/
 body {
-    background-color: #E7ECEF;
+    background-color: #587d93;
     font-family:'Trebuchet MS', Verdana, Verdana, sans-serif;
 }
 
@@ -46,7 +46,7 @@ p{
 }
 
 .overview {
-    background-color:#F3F5F7; 
+    background-color:#e9eaec; 
     display:block;
     padding: 30 px; 
     margin: 30 px;
