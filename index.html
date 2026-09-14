@@ -1,58 +1,115 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSCE 190: Michelle Clark</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Michelle Clark</title>
+        <link rel="stylesheet" href="styles_index.css">
     </head>
     <body>
         <hl>Michelle Clark</hl>
         
-        <!-- Problem Statement Assignment-->
-        <section class="assignment">
-            <a href="files/problem-statement.pdf"><img src="images/problem-statement.png"></a>
-            <section class="ass-details">
-                <a href="files/problem-statement.pdf">Problem Statement pdf<h2>Problem Statement: College Textbooks</h2></a>
+        <!-- Summary/Overview -->
+        <section class="overview">
+            <!-- <a href="files/problem-statement.pdf"><img src="images/problem-statement.png"></a> -->
+            <section class="details">
+                <!-- THIS SHOULD LINK TO PDF OF RESUME-->
+                <a href="files/MM_Clark_Resume_Fall_2026.pdf">Resume as PDF<h2>Overview</h2></a>
                 <p>
-                    Students need a cheaper and more accessible alternative to required textbooks provided through the university.
+                    Senior year Software Development student at CofC looking for impactful 
+                    work in the field of computing. System Administrator for the Department of 
+                    Computer Science, Harbor Walk East. 
                 </p>
             </section>
         </section>
         
 
-        <!-- Affinity Diagram Assignment-->
-        <section class="assignment">
-            <a href="files/affinity-diagram.pdf"><img src="images/affinity-diagram.png"></a>
-            <section class="ass-details">
-                <a href="files/affinity-diagram.pdf"> Affinity Diagram pdf<h2>Affinity Diagram: College Textbooks</h2></a>
-                <p>My group and I worked together to brainstorm product ideas, hurdles, technology, designand advertising to create a free 
-                    textbook library. These groups are to help us get an idea about how to bring our solution to life. 
-                </p>
-            </section>
-        </section>
-
-        <!--Personna Assignment-->
-        <section class="assignment">
-            <a href="files/personna.pdf"><img src="images/personna.png"></a>
-            <section class="ass-details">
-                <a href="files/personna.pdf"> Personna Diagram pdf<h2>Personna: John Doe I</h2></a>
+        <!-- Technical Skills --> 
+        <section class="overview">
+            <!-- <a href="files/affinity-diagram.pdf"><img src="images/affinity-diagram.png"></a> -->
+            <section class="details">
+                <a href="https://github.com/MM-Clark">GitHub Profile<h2>Technical Skills</h2></a>
                 <p>
-                A personna of a typical free online textbook library user.
+                    Experience in Git, GitHub, Ubuntu, React Native, Java, Python, Machine/Deep Learning with
+                    Jupyter Notebook and Colab, Firebase, Supabase, HTML, CSS, Figma, SQLite, Linux, React.
                 </p>
             </section>
         </section>
 
-        <!-- Storyboard assignment -->
-        <section class="assignment">
-            <a href="files/storyboard.pdf"><img src="images/storyboard.png"></a>
-            <section class="ass-details">
-                <a href="files/storyboard.pdf"> Storyboard pdf<h2>Team Storyboards: John Doe I</h2></a>
+        <!--Projects-->
+        <section class="overview">
+            <!-- <a href="files/personna.pdf"><img src="images/personna.png"></a> -->
+            <section class="details">
+                <h2>Projects</h2>
+                    <a href="https://drive.google.com/file/d/1cnaD02yzOda_tUKqyLHcYj5zjgx8OD3n/view?usp=drive_link">Demo<img src="images/drone_app_login.PNG"><img src="images/drone_app_homepage.PNG"><img src="images/drone_app_mfcc_classifier.PNG"><img src="images/drone_app_history.PNG"></a>
+                    <a href="https://github.com/MM-Clark/Drone_Lab_App_Audio_MFCC_Classification"><h3>Drone Audio MFCC Classification App - GitHub</h3></a>
+                        <p>
+                            A React Native Expo application to allow users to upload a drone audio MP3 file 
+                            or a PNG/JPG/JPEG image of an MFCC image of drone audio for classification
+                            as a certain Drone brand and model (ex. DJI Mini 3). Application handles Auth/Database
+                            on Supabase and connects User History to the user account. Flask and Python are used in 
+                            the backend of the application to host a CNN model and handle file processing / classification
+                            return. 
+                        </p>
+                    <a href="https://docs.google.com/presentation/d/14rczEPKG8lBvu5e9qt_2uPEVgxxDIKyeAkYtinh4dA4/edit?usp=drive_link">Presentation & Details<img src="images/pokerun_login.PNG"><img src="images/pokerun_map.PNG"><img src="images/pokerun_list.PNG"></a>
+                    <a href="https://github.com/MM-Clark/CSCI_370_Final_Project"><h3>PokeRun - GitHub</h3></a>
+                        <p>
+                            A React Native Expo application that gamifies fitness and improves Pokemon Go by having users locate pokemon at 
+                            real-world coordinates and perform exercises to catch the Pokemon. Users navigate a custom interactive map, track
+                            down nearby Pokemon using GPS geofencing, and complete randomized physical exercises to catch Pokemon and level up
+                            their trainer profile.  
+                        </p>
+                        <p>
+                            Local SQLite storage manages user accounts, a master list of Pokemon fetched from an external 
+                            JSON API, dynamically mapped pins, and nearby active Pokemon encounters. Use of expo-notifications to send local alerts
+                            to the device whenever a geofence boundary is crossed and a Pokemon is encountered. Use of expo-location to actively track 
+                            user coordinates and trigger background events when a user walks within 150 units of a designated map pin. Integration of
+                            react-native-maps with a custom-styled Google Maps provider to display interactable Points of Interest and dynamically pan
+                            to specific coordinates. Local sign up, login, and logout functionality and session
+                            state management managed by expo-secure-store. 
+                        </p>
+                    <a href="https://docs.google.com/presentation/d/1JXzOcDzJ1coZCcGHNTsT1jL06omv0JcrnjXbRkYhSic/edit?usp=drive_link">Presentation<img src="images/bod_events.png"><img src="images/bod_admin_event_crud.png"><img src="images/bod_enforcer_ticket_validation.png"><img src="images/bod_tickets.png"></a>
+                    <a href="https://github.com/MM-Clark/CSCI360FinalProject"><h3>Box Office Dragon - GitHub</h3></a>
+                        <p>
+                            A React application that provides a payment system for student, faculty members, and non-college users to view purchase, and 
+                            reserve seats in college-owned stadiums, theatres, and auditoriums.  
+                        </p>
+                        <p>
+                            Users can cancel reservations or transfer tickets. A set amount of seats are reserved for certain populations, such as faculty and 
+                            handicap. The app is open to non-students but provides student and faculty accounts with ticket discounts. The app outlines a process
+                            for secure payment via third party applications or credit card. Tickets are provided to the user as a scannable QR code. Admin Admin
+                            Ticket Enforcer interfaces are provided. Firebase provides authentication, backend, and database services for the application. 
+                        </p>
+                    <a href="https://drive.google.com/file/d/1XKqUR4-LzpMxcv8oPTdyU_cVggzfL_qG/view?usp=drive_link">Academic Poster<img src="images/jenga_stack_gameplay.png"><img src="images/jengastack_win_screen.jpg"><img src="images/jengastack_lose_screen.jpg"></a>
+                    <a href="https://github.com/MM-Clark/JengaStack"><h3>Jenga Stack - GitHub</h3></a>
+                        <p>
+                            A Java and Javax Swing application that uses a stack structure and expands on the classic game, Tetris. The user must entirely cover the grey blocks present on the board with Tetris pieces  
+                            before any block touches the tan buffer zone at the top of the grid. Winning or losing triggers an end screen created by Michelle Clark using Adobe Fresco on a tablet (JPG). Incorporates images, 
+                            audio (WAV), motion, keyboard input, and JPanel updates. 
+                        </p>
+                        <p>
+                            An array stack holds 300 integer values (0-6) and pops the top integer of the stack to determine the shape of the current falling block (Z, L, O, S, I, J, or T).  
+                        </p>
+            </section>
+        </section>
+
+        <!-- Education -->
+        <section class="overview">
+            <!-- <a href="files/storyboard.pdf"><img src="images/storyboard.png"></a> -->
+            <section class="details">
+                <h2>Education</h2>
+                <h3>College of Charleston</h3>
+                <h4>Charleston, SC</h4>
                 <p>
-                John Doe I needs to buy his Psycho 101 Textbook but is very much not in the financial or ambitious position to do so. 
+                    <i>Bachelor of Science in Software Engineering</i>
                 </p>
+                <ul>
+                    <li>GPA: 4.0</li>
+                    <li>Expected Graduation: May 2026</li>
+                    <li>Undergraduate Researcher with <b><i>The Drone Lab</b></i></li>
+                </ul>
             </section>
         </section>
 
-        <!--Sketch Assignment-->
+        <!-- Sketch Assignment
         <section class="assignment">
             <a href="files/sketch.pdf"><img src="images/sketch.png"></a>
             <section class="ass-details">
@@ -61,9 +118,9 @@
                     These sketches show the ideas that the group members had for the USC Textbook Resource Application. 
                 </p>
             </section>
-        </section>
+        </section> -->
 
-        <!-- Paper Prototype Assignment-->
+        <!-- Paper Prototype Assignment
         <section class="assignment">
             <a href="https://www.youtube.com/watch?v=q7Aom6RUFlA&t=4s"><img src="images/paper-prototype.png"></a>
             <section class="ass-details">
@@ -72,9 +129,9 @@
                   A video walkthrough of how to use our app. 
                 </p>
             </section>
-        </section>
+        </section> -->
 
-        <!-- High Fi Prototype Assignment-->
+        <!-- High Fi Prototype Assignment
         <section class="assignment">
             <a href="https://www.youtube.com/watch?v=A7xKQwwQiPM"><img src="images/high-fi-prototype.png"></a>
             <section class="ass-details">
@@ -83,6 +140,6 @@
                   A final presentation of how to use our app. 
                 </p>
             </section>
-        </section>
+        </section> -->
     </body>
 </html>
