@@ -28,9 +28,24 @@ h2{
     text-shadow: 4px 4px 0px rgb(218, 91, 127);    */
 }
 
-h2:hover {
+/* h2:hover {
     text-decoration: underline;
     color:#F05D5E; 
+    text-align:center;
+} */
+
+h3{
+    text-align:center;
+    text-decoration:bold; 
+    /* font-size: 20px;  */
+    color: #073232;
+    /* text-shadow: 2px 2px 0px rgb(104, 51, 92);
+    text-shadow: 4px 4px 0px rgb(218, 91, 127);    */
+}
+
+h3:hover {
+    text-decoration: underline;
+    color:#b74949; 
     text-align:center;
 }
 
@@ -38,6 +53,12 @@ a {
     text-decoration:none;
     /* font-size: 15px;  */
     color:#272932;
+}
+
+a:hover {
+    text-decoration:underline;
+    /* font-size: 15px;  */
+    color:#b74949;
 }
 
 p{
