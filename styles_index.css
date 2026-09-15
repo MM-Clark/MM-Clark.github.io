@@ -61,6 +61,11 @@ a:hover {
     color:#b74949;
 }
 
+/* nav {
+    color: #e9eaec;
+
+} */
+
 p{
     color:#272932; 
     /* font-size: 15px;  */
@@ -106,4 +111,8 @@ p{
     width:200px;
     margin:10px;
     border: 3 px dashed #ffffff; 
+}
+
+.nav_item {
+    color: #e9eaec;
 }
