@@ -28,12 +28,6 @@ h2{
     text-shadow: 4px 4px 0px rgb(218, 91, 127);    */
 }
 
-/* h2:hover {
-    text-decoration: underline;
-    color:#F05D5E; 
-    text-align:center;
-} */
-
 h3{
     text-align:center;
     text-decoration:bold; 
@@ -61,11 +55,6 @@ a:hover {
     color:#b74949;
 }
 
-/* nav {
-    color: #e9eaec;
-
-} */
-
 p{
     color:#272932; 
     /* font-size: 15px;  */
@@ -74,8 +63,8 @@ p{
 .overview {
     background-color:#e9eaec; 
     display:block;
-    padding: 30 px; 
-    margin: 30 px;
+    padding: 30px; 
+    margin: 30px;
     box-shadow: 8px 8px #272932;
     border-radius:3px;
 }
@@ -114,5 +103,11 @@ p{
 }
 
 .nav_item {
-    color: #e9eaec;
+    background-color: #e9eaec;
+    display:block;
+    padding: 30px; 
+    margin: 30px;
+    box-shadow: 8px 8px #632828;
+    border-radius:3px;
+    font-weight: bold;
 }
